@@ -1,0 +1,17 @@
+{
+    "version": 2,
+    "routes": [
+    {
+    "src": "/Assignment1/(._)",
+    "dest": "Assignment1/$1"
+    },
+    {
+    "src": "/Assignment2/(._)",
+    "dest": "Assignment2/$1"
+    },
+    {
+    "src": "/(.*)",
+    "dest": "Assignment1/$1"
+    }
+    ]
+    }
